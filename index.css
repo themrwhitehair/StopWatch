@@ -1,0 +1,46 @@
+body {
+    background-color: #dddddd;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    display: inline;
+    width: 20%;
+    margin: auto;
+}
+
+
+
+#timer {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+#controller {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    margin: 10px;
+    padding: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: #090909;
+    color: #dedede
+}
+
+#lap {
+    width: 10%;
+    margin:auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: x-large;
+}

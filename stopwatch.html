@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>
+        StopWatch - by mr_whitehair
+    </h1>
+    <div id="timer" clear: both>
+        <h3 id="tenM">0</h3>
+        <h3 id="minutes">0</h3>
+        <h3>:</h3>
+        <h3 id="tenS">0</h3>
+        <h3 id="seconds">0</h3>
+        <h3>:</h3>
+        <h3 id="tenths">0</h3>
+        <h3 id="hundredths">0</h3>
+    </div>
+    
+
+    <div id="controller">
+        <h2>
+            controller
+        </h2>
+        <button class="button" id="start" onclick="start()">start</button>
+        <button class="button" onclick="lap()">lap</button>
+        <button class="button" onclick="reset()">reset</button>
+    </div>
+
+    <div id="lap">
+        <h3>laps</h3>
+            <ul id="laps">
+            
+            
+            </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
